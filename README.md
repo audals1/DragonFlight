@@ -1,7 +1,7 @@
 # 드래곤플라이트 모작
 - 유니티 버전 2019.3.9f1
 - 모바일 빌드
-
+- ngui  
 [시연영상링크](https://youtube.com/shorts/8o2iAKZZnEA?feature=share)
 
 ## 주요 구현 기능
