@@ -8,6 +8,6 @@
 ## 주요 구현
 
 - 맵 반복 (Asset/Script/Game/BgController)
-- 오브젝트 풀링 총알,몬스터,아이템((Asset/Script/Util/GameObjectPool))
-- 플레이어 이동, 무적아이템 사용시 효과
+- 오브젝트 풀링 총알,몬스터,아이템(Asset/Script/Manager)
+- 플레이어 이동, 무적아이템 사용시 효과(Asset/Game/HeroController)
 - ui - 게임 로비(캐릭터 구매),이동거리,획득점수,게임오버 시 기록과 재시작
