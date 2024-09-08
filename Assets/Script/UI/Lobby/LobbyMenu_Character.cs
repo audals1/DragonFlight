@@ -101,13 +101,5 @@ public class LobbyMenu_Character : MonoBehaviour, ILobbyMenu
         Hide();
         m_select = PlayerDataManager.Instance.HeroIndex;
         ResetHeroSprite();
-
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
