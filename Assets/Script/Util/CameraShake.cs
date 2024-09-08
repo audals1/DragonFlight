@@ -43,10 +43,4 @@ public class CameraShake : MonoBehaviour
     {
         m_orgPos = transform.position;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
