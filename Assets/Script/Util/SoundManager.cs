@@ -90,10 +90,4 @@ public class SoundManager : DontDestroy<SoundManager>
         m_bgmClips = Resources.LoadAll<AudioClip>("Sound/BGM");
         m_sfxClips = Resources.LoadAll<AudioClip>("Sound/SFX");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
