@@ -32,10 +32,4 @@ public class EffectManager : SingletonMonoBehaviour<EffectManager>
             return effect;
         });
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
