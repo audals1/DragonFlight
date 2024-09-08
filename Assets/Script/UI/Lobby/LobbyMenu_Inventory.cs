@@ -17,10 +17,4 @@ public class LobbyMenu_Inventory : MonoBehaviour, ILobbyMenu
     {
         Hide();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
