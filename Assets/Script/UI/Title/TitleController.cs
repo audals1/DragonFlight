@@ -17,11 +17,4 @@ public class TitleController : MonoBehaviour
             GoNextScene();
         }
     }
-
-    void Start()
-    {
-
-    }
-
-
 }
