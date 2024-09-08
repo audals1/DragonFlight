@@ -47,16 +47,4 @@ public class Popup_OkCancel : MonoBehaviour
             PopupManager.Instance.ClosePopup();
         }
     }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
