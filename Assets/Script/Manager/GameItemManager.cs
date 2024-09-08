@@ -64,10 +64,4 @@ public class GameItemManager : SingletonMonoBehaviour<GameItemManager>
             return item;
         });
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
