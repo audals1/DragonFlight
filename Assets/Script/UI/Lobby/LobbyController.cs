@@ -53,10 +53,4 @@ public class LobbyController : MonoBehaviour
             m_menuButtons[i].onClick.Add(del);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
