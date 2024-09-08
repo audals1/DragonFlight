@@ -62,15 +62,13 @@ public class PlayerDataManager : DontDestroy<PlayerDataManager>
         else
         {
             Debug.Log(jsonStr);
-            //m_myData = JsonReader.Deserialize<PlayerData>(jsonStr); 외부 플러그인
-            m_myData = JsonUtility.FromJson<PlayerData>(jsonStr); //유니티내부기능
+            m_myData = JsonUtility.FromJson<PlayerData>(jsonStr);
             return true;
         }
     }
     public void Save()
     {
-        //var jsonStr = JsonWriter.Serialize(m_myData); 외부 플러그인
-        var jsonStr = JsonUtility.ToJson(m_myData); //유니티 내부기능
+        var jsonStr = JsonUtility.ToJson(m_myData);
         Debug.Log(jsonStr);
         PlayerPrefs.SetString("PLAYER_DATA", jsonStr);
         PlayerPrefs.Save();
@@ -82,7 +80,5 @@ public class PlayerDataManager : DontDestroy<PlayerDataManager>
         {
             Save();
         }
-        //PlayerPrefs.DeleteAll();
     }
-
 }
