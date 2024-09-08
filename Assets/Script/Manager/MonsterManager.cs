@@ -128,18 +128,6 @@ public class MonsterManager : SingletonMonoBehaviour<MonsterManager>
             });
             m_monsterPool.Add(type, pool);
         }
-        /*m_monsterPool = new GameObjectPool<MonsterController>(15, () =>
-        {
-            var obj = Instantiate(m_monsterPrefab);
-            obj.transform.SetParent(transform);
-            obj.transform.localPosition = Vector3.zero;
-            obj.transform.localScale = Vector3.one;
-            obj.SetActive(false);
-            var monster = obj.GetComponent<MonsterController>();
-            return monster;
-        });*/
-
-
         
         InvokeRepeating("CreateMonster", 3f, m_spawnInterval);
 
