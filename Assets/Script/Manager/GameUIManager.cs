@@ -63,10 +63,4 @@ public class GameUIManager : SingletonMonoBehaviour<GameUIManager>
         SetHuntScore(0);
         SetGoldCount(0);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
